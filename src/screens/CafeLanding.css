@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT,WONK@9..144,500,20,1;9..144,700,20,1&display=swap');
+
+/* Standalone storefront from the virtual café concept, scoped so it does not change Sam's screens. */
+.bb-landing{min-height:100vh;display:flex;flex-direction:column;background:radial-gradient(ellipse at 90% 18%,#f5e5cd 0,transparent 44%),#f8f3e9;color:#392d28}
+.bb-landing-header{height:76px;border-bottom:1px solid #e6dcca;display:flex;align-items:center;justify-content:space-between;padding:0 max(5vw,24px);gap:20px}
+.bb-landing-brand{font:700 25px Georgia,serif;color:#356f52;white-space:nowrap}.bb-landing-brand span{color:#db8e79}
+.bb-landing-header-note{font-size:12px;color:#ab927d}.bb-landing-header-right,.bb-landing-eyebrow,.bb-landing-micro,.bb-scene-tag,.bb-landing-footer{letter-spacing:2px;font-size:10px;font-weight:700;color:#ae8d73}
+.bb-landing-main{width:min(1240px,92vw);margin:auto;flex:1;display:grid;grid-template-columns:41% 59%;align-items:center;gap:20px;padding:56px 0 35px}
+.bb-landing-copy{padding-right:25px}.bb-landing-eyebrow{color:#c27f59;margin-bottom:18px}
+.bb-landing-copy h1{font:500 clamp(42px,5vw,77px)/1.12 Georgia,serif;letter-spacing:-2.3px;margin:0 0 20px}.bb-landing-copy h1 em{color:#427857;font-weight:500}
+.bb-landing-copy p{color:#8d7869;line-height:1.8;max-width:470px;margin:0 0 20px}
+.bb-enter-button{background:#3f7555;color:white;border:1px solid #3f7555;border-radius:40px;padding:15px 23px;font-weight:700;display:inline-flex;gap:35px;justify-content:space-between;align-items:center;box-shadow:0 6px 0 #28563c22;cursor:pointer;transition:transform .2s,background .2s}.bb-enter-button:hover{transform:translateY(-3px);background:#305f43}
+.bb-landing-micro{margin-top:24px;color:#b4a18c}.bb-landing-footer{display:flex;justify-content:space-between;padding:22px max(5vw,24px);border-top:1px solid #e6dcca}
+.bb-scene-wrap{position:relative}.bb-store-scene{height:510px;border-radius:26px;overflow:hidden;position:relative;box-shadow:0 24px 55px #6b4d3521;border:9px solid #fffaf1}.bb-store-scene{background:linear-gradient(#c7dcd0 0 62%,#c8c5ac 62% 67%,#e2d0b9 67%)}.bb-sun{position:absolute;right:14%;top:10%;width:90px;height:90px;background:#ffefbb;border-radius:50%;box-shadow:0 0 45px #fff1ba}.bb-cloud{position:absolute;width:100px;height:26px;background:#fff9e9;border-radius:30px;opacity:.8;top:18%;left:12%}.bb-cloud-two{left:73%;top:27%;width:80px}.bb-building{position:absolute;width:66%;height:78%;left:17%;bottom:11%;background:#f4d8bc;border:8px solid #e3ae8e;border-radius:7px 7px 0 0;box-shadow:0 12px 0 #c18d72}.bb-roof{position:absolute;left:-6%;top:-7%;width:112%;height:25px;background:#9b5f50;border-radius:9px}.bb-awning{position:absolute;top:21%;left:-5%;width:110%;height:65px;display:flex;filter:drop-shadow(0 8px 2px #6c403c24)}.bb-awning span{flex:1;background:#fff4dc;border-radius:0 0 25px 25px;border:1px solid #e6b5a0}.bb-awning span:nth-child(odd){background:#bf7969}.bb-shop-sign{position:absolute;top:3%;width:100%;text-align:center;font-family:Fraunces,serif;font-size:clamp(19px,2.3vw,31px);color:#6a463a}.bb-shop-sign small{display:block;font-family:'DM Sans',sans-serif;font-size:8px;letter-spacing:3px;margin-top:5px}.bb-window{position:absolute;bottom:5%;height:47%;width:24%;background:linear-gradient(135deg,#d0e7d5,#a4c8bf);border:9px solid #a96e57;border-radius:55px 55px 2px 2px;display:flex;align-items:end;justify-content:space-around;padding-bottom:10px}.bb-window-left{left:6%}.bb-window-right{right:6%}.bb-window span:first-child,.bb-window span:last-child{font-size:29px}.bb-shop-door{position:absolute;bottom:0;left:36%;width:28%;height:52%;border:9px solid #9b654d;background:linear-gradient(125deg,#b3d6cb,#e6eee1);border-radius:60px 60px 0 0;color:#4d6e57;display:flex;flex-direction:column;align-items:center;justify-content:center;font-weight:900;letter-spacing:2px;gap:14px;transition:filter .2s}.bb-shop-door:hover{filter:brightness(1.13)}.bb-shop-door span:first-child{font-size:40px}.bb-path{position:absolute;bottom:-4%;left:42%;width:16%;height:15%;background:#d1ae8d;transform:perspective(70px) rotateX(23deg)}.bb-planter{position:absolute;bottom:4%;font-size:46px}.p1{left:7%}.p2{right:7%}.bb-scene-tag{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);background:#fffaf0;padding:11px 20px;border-radius:30px;white-space:nowrap;font-size:9px;box-shadow:0 3px 12px #5b433322}
+@media(max-width:950px){.bb-landing-main{grid-template-columns:1fr;gap:30px;padding:42px 0}.bb-landing-copy{padding-right:0}.bb-store-scene{height:460px}.bb-landing-header-note{display:none}}
+@media(max-width:560px){.bb-landing-header{height:68px}.bb-landing-brand{font-size:21px}.bb-landing-header-right{font-size:8px}.bb-landing-main{padding:36px 0}.bb-landing-copy h1{font-size:clamp(40px,10vw,58px)}.bb-store-scene{height:330px;border-width:6px}.bb-building{width:76%;left:12%}.bb-shop-sign{font-size:18px}.bb-shop-sign small{font-size:6px;letter-spacing:1.5px}.bb-window span{font-size:17px}.bb-scene-tag{font-size:7px;padding:8px 11px;bottom:13px}.bb-landing-footer{gap:15px;flex-wrap:wrap;font-size:8px}}
+@media(prefers-reduced-motion:reduce){.bb-enter-button{transition:none}}
+
+/* Restore the original virtual café wordmark on BOTH logos. */
+.bb-landing .bb-landing-brand {
+  font-family: "Fraunces", Georgia, serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 700;
+  font-size: 25px;
+  letter-spacing: normal;
+  color: #356f52;
+  white-space: nowrap;
+}
+.bb-landing .bb-landing-brand span { color: #db8e79; }
+.bb-landing .bb-shop-sign {
+  font-family: "Fraunces", Georgia, serif;
+  font-optical-sizing: auto;
+  font-variation-settings: "SOFT" 20, "WONK" 1;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+@media (max-width: 560px) {
+  .bb-landing .bb-landing-brand { font-size: 21px; }
+}
+
+/* FIX: App.css has a global main:not(.picker) rule that otherwise collapses
+   this two-column storefront into a centered, vertical layout. */
+.bb-landing main.bb-landing-main {
+  width: min(1240px, 92vw);
+  max-width: 1240px;
+  min-height: 0;
+  height: auto;
+  margin: auto;
+  padding: 56px 0 35px;
+  display: grid;
+  grid-template-columns: minmax(0, 41fr) minmax(0, 59fr);
+  gap: 20px;
+  align-items: center;
+  justify-content: initial;
+  text-align: left;
+}
+.bb-landing main.bb-landing-main .bb-landing-copy { width: 100%; text-align: left; padding-right: 25px; }
+.bb-landing main.bb-landing-main .bb-landing-copy h1 {
+  font: 500 clamp(42px, 5vw, 77px)/1.12 Georgia, serif;
+  letter-spacing: -2.3px;
+  margin: 0 0 20px;
+}
+.bb-landing main.bb-landing-main .bb-scene-wrap { width: 100%; min-width: 0; }
+.bb-landing main.bb-landing-main button.bb-enter-button {
+  width: auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 35px;
+  margin: 0;
+  padding: 15px 23px;
+  background: #3f7555;
+  color: white;
+  border: 1px solid #3f7555;
+  border-radius: 40px;
+}
+.bb-landing main.bb-landing-main button.bb-enter-button:hover { background: #305f43; }
+.bb-landing main.bb-landing-main button.bb-enter-button span { margin-left: 0; }
+.bb-landing main.bb-landing-main button.bb-shop-door {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin: 0;
+  padding: 0;
+  border: 9px solid #9b654d;
+  border-radius: 60px 60px 0 0;
+  background: linear-gradient(125deg,#b3d6cb,#e6eee1);
+  color: #4d6e57;
+}
+.bb-landing main.bb-landing-main button.bb-shop-door span { margin-left: 0; }
+@media (max-width: 950px) {
+  .bb-landing main.bb-landing-main { grid-template-columns: minmax(0, 1fr); gap: 30px; padding: 42px 0; }
+  .bb-landing main.bb-landing-main .bb-landing-copy { padding-right: 0; }
+}
+@media (max-width: 560px) {
+  .bb-landing main.bb-landing-main { padding: 36px 0; }
+  .bb-landing main.bb-landing-main .bb-landing-copy h1 { font-size: clamp(40px, 10vw, 58px); }
+}

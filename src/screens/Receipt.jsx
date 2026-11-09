@@ -7,7 +7,7 @@ Date and time of the session
 */
 
 export default function Receipt({ drink, focusSeconds, finishedAt, onAgain }) {
-  const minutes = Math.round(focusSeconds / 60)
+  const duration = focusSeconds < 60 ? `${focusSeconds} sec` : `${Math.round(focusSeconds / 60)} min`
   const when = finishedAt.toLocaleString([], { dateStyle: 'medium', timeStyle: 'short' })
 
   return (
@@ -23,7 +23,7 @@ export default function Receipt({ drink, focusSeconds, finishedAt, onAgain }) {
           </div>
           <div className="receipt-row">
             <dt>Focus time</dt>
-            <dd>{minutes} min</dd>
+            <dd>{duration}</dd>
           </div>
           <div className="receipt-row">
             <dt>Caffeine</dt>
