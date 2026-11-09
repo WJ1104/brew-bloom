@@ -1,4 +1,4 @@
-#root{min-height:100vh} .cafe-page{min-height:100vh;background:radial-gradient(circle at 94% 18%,#f0e0cb 0,transparent 30%),#f6f0e6}.cafe-header{height:86px;border-bottom:1px solid #e5d8c8;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(30px,calc((100vw - 1200px)/2));background:#fbf7ef}.brand{text-decoration:none;font:700 25px Georgia,serif;color:#35684e;white-space:nowrap}.brand-flower{color:#dca18f;margin-right:12px;font-size:30px}.header-caption,.header-pill{font-size:11px;letter-spacing:.15em;color:#9c8975}.header-pill{letter-spacing:.03em;border:1px solid #e4d5c2;padding:10px 17px;border-radius:30px}.picker{max-width:1200px;margin:auto;padding:46px 30px 28px}.step-line{display:flex;gap:25px;border-bottom:1px solid #e2d6c5;padding-bottom:17px;color:#b4a391;font-size:11px;letter-spacing:.15em;font-weight:700}.step-line span:first-child{color:#35684e}.picker-heading{display:flex;justify-content:space-between;align-items:center;margin:52px 0 34px}.eyebrow{font-size:12px;letter-spacing:.2em;color:#bd8a65;font-weight:800}.picker-heading h1{font:normal clamp(42px,6vw,76px)/1.06 Georgia,'Times New Roman',serif;letter-spacing:-.045em;margin:16px 0 18px}.picker-heading h1 em{color:#376b4e;font-weight:normal}.picker-heading p{font-size:15px;line-height:1.7;color:#907d6b;margin:0}.heading-sparkle{font-size:76px;color:#d9b59d;opacity:.65}.drink-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.drink-card{appearance:none;text-align:left;border:1px solid #e4d8c8;border-radius:15px;padding:13px;background:#fffcf7;cursor:pointer;transition:transform .18s,box-shadow .18s,border-color .18s;color:inherit;box-shadow:0 4px 18px #6c4a2a0a}.drink-card:hover{transform:translateY(-4px);box-shadow:0 14px 32px #6c4a2a14}.drink-card.is-selected{border:2px solid #4b775d;padding:12px;box-shadow:0 10px 26px #376b4e1b}.card-top{display:flex;justify-content:space-between;align-items:center;padding:8px 9px 13px}.card-tag{font-size:10px;font-weight:800;letter-spacing:.13em;color:#a38b73}.selection-dot{display:grid;place-items:center;width:23px;height:23px;border:1px solid #cbbba8;border-radius:50%;font-size:13px}.is-selected .selection-dot{background:#376b4e;color:white;border-color:#376b4e}.drink-art{height:188px;background:color-mix(in srgb,var(--drink-color) 13%,#f5efe5);border-radius:10px;display:grid;place-items:center;position:relative;overflow:hidden}.drink-art:before{content:'';width:135px;height:135px;background:#ffffff5c;border-radius:50%;position:absolute}.drink-emoji{font-size:88px;filter:drop-shadow(0 10px 8px #5a483025);z-index:1}.art-sparkle,.art-leaf{position:absolute;color:var(--drink-color);font-size:27px}.art-sparkle{left:16%;top:19%}.art-leaf{right:16%;bottom:14%}.card-content{padding:20px 9px 10px}.card-content h2{font:normal 29px Georgia,serif;margin:0 0 8px}.card-content p{font-size:13px;color:#947e6d;line-height:1.5;margin:0;min-height:38px}.card-divider{height:1px;background:#e9dfd3;margin:16px 0}.ingredients{font-size:12px;color:#766755}.card-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px;color:#477153;font-size:11px}.card-footer span:last-child{color:#9a8774}.order-summary{margin-top:25px;background:#fffdf8;border:1px solid #e4d8c8;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px}.order-left{display:flex;gap:16px;align-items:center}.order-icon{width:43px;height:43px;border-radius:50%;background:#e3eddf;color:#427052;display:grid;place-items:center;font-size:23px}.order-left>div{display:flex;flex-direction:column;gap:5px}.order-label{font-size:10px;letter-spacing:.15em;color:#9d8a77;font-weight:800}.order-left strong{font:normal 20px Georgia,serif}.order-note{font:normal 13px Inter,system-ui,sans-serif;color:#9d8a77}.order-button,.primary{border:0;background:#386b4f;color:white;border-radius:100px;padding:16px 29px;font-weight:700;cursor:pointer}.order-button span{margin-left:20px}.order-button:hover,.primary:hover{background:#28543c}.picker-footer{display:flex;justify-content:space-between;gap:12px;margin-top:30px;color:#b29b85;font-size:11px;letter-spacing:.12em}.timer{font-size:4rem;margin-top:24px}.cup{position:relative;width:140px;height:160px;margin:0 auto 24px;overflow:hidden;background:var(--paper);border:4px solid var(--ink);border-radius:0 0 70px 70px}.cup-liquid{position:absolute;bottom:0;left:0;width:100%;transition:height 1s linear}.receipt{width:100%;max-width:350px;margin:0 auto 24px;padding:26px;background:var(--paper);border:2px dashed var(--ink);font-family:ui-monospace,Menlo,monos}.receipt h2{margin:0}.receipt dl{margin:16px 0}.receipt-row{display:flex;justify-content:space-between;padding:4px 0;gap:20px}.receipt dt,.receipt dd{margin:0}.receipt dd{text-align:right}main:not(.picker){min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}main:not(.picker) h1{font:normal clamp(40px,6vw,65px) Georgia,serif;margin:0 0 22px}main:not(.picker) button{cursor:pointer;padding:12px 24px;margin:8px;border-radius:30px;border:1px solid #d9cdbb;background:#fffdf8}main:not(.picker) button.primary{background:#386b4f;color:white;border:0}@media(max-width:800px){.header-caption{display:none}.drink-grid{grid-template-columns:1fr}.drink-art{height:165px}.picker-heading{margin-top:35px}.heading-sparkle{display:none}.card-content p{min-height:0}.order-summary{flex-wrap:wrap}.order-button{width:100%}}@media(max-width:480px){.cafe-header{padding:0 18px}.brand{font-size:20px}.header-pill{display:none}.picker{padding:25px 18px}.step-line{gap:11px;font-size:9px}.picker-heading h1{font-size:43px}.order-note{display:block;margin-top:5px}.picker-footer{flex-direction:column}}
+#root{min-height:100vh} .cafe-page{min-height:100vh;background:radial-gradient(circle at 94% 18%,#f0e0cb 0,transparent 30%),#f6f0e6}.cafe-header{height:86px;border-bottom:1px solid #e5d8c8;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(30px,calc((100vw - 1200px)/2));background:#fbf7ef}.brand{text-decoration:none;font:700 25px Georgia,serif;color:#35684e;white-space:nowrap}.brand-flower{color:#dca18f;margin-right:12px;font-size:30px}.header-caption,.header-pill{font-size:11px;letter-spacing:.15em;color:#9c8975}.header-pill{letter-spacing:.03em;border:1px solid #e4d5c2;padding:10px 17px;border-radius:30px}.picker{max-width:1200px;margin:auto;padding:46px 30px 28px}.step-line{display:flex;gap:25px;border-bottom:1px solid #e2d6c5;padding-bottom:17px;color:#b4a391;font-size:11px;letter-spacing:.15em;font-weight:700}.step-line span:first-child{color:#35684e}.picker-heading{display:flex;justify-content:space-between;align-items:center;margin:52px 0 34px}.eyebrow{font-size:12px;letter-spacing:.2em;color:#bd8a65;font-weight:800}.picker-heading h1{font:normal clamp(42px,6vw,76px)/1.06 Georgia,'Times New Roman',serif;letter-spacing:-.045em;margin:16px 0 18px}.picker-heading h1 em{color:#376b4e;font-weight:normal}.picker-heading p{font-size:15px;line-height:1.7;color:#907d6b;margin:0}.heading-sparkle{font-size:76px;color:#d9b59d;opacity:.65}.drink-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.drink-card{appearance:none;text-align:left;border:1px solid #e4d8c8;border-radius:15px;padding:13px;background:#fffcf7;cursor:pointer;transition:transform .18s,box-shadow .18s,border-color .18s;color:inherit;box-shadow:0 4px 18px #6c4a2a0a}.drink-card:hover{transform:translateY(-4px);box-shadow:0 14px 32px #6c4a2a14}.drink-card.is-selected{border:2px solid #4b775d;padding:12px;box-shadow:0 10px 26px #376b4e1b}.card-top{display:flex;justify-content:space-between;align-items:center;padding:8px 9px 13px}.card-tag{font-size:10px;font-weight:800;letter-spacing:.13em;color:#a38b73}.selection-dot{display:grid;place-items:center;width:23px;height:23px;border:1px solid #cbbba8;border-radius:50%;font-size:13px}.is-selected .selection-dot{background:#376b4e;color:white;border-color:#376b4e}.drink-art{height:188px;background:color-mix(in srgb,var(--drink-color) 13%,#f5efe5);border-radius:10px;display:grid;place-items:center;position:relative;overflow:hidden}.drink-art:before{content:'';width:135px;height:135px;background:#ffffff5c;border-radius:50%;position:absolute}.drink-emoji{font-size:88px;filter:drop-shadow(0 10px 8px #5a483025);z-index:1}.art-sparkle,.art-leaf{position:absolute;color:var(--drink-color);font-size:27px}.art-sparkle{left:16%;top:19%}.art-leaf{right:16%;bottom:14%}.card-content{padding:20px 9px 10px}.card-content h2{font:normal 29px Georgia,serif;margin:0 0 8px}.card-content p{font-size:13px;color:#947e6d;line-height:1.5;margin:0;min-height:38px}.card-divider{height:1px;background:#e9dfd3;margin:16px 0}.ingredients{font-size:12px;color:#766755}.card-footer{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px;color:#477153;font-size:11px}.card-footer span:last-child{color:#9a8774}.order-summary{margin-top:25px;background:#fffdf8;border:1px solid #e4d8c8;border-radius:15px;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px}.order-left{display:flex;gap:16px;align-items:center}.order-icon{width:43px;height:43px;border-radius:50%;background:#e3eddf;color:#427052;display:grid;place-items:center;font-size:23px}.order-left>div{display:flex;flex-direction:column;gap:5px}.order-label{font-size:10px;letter-spacing:.15em;color:#9d8a77;font-weight:800}.order-left strong{font:normal 20px Georgia,serif}.order-note{font:normal 13px Inter,system-ui,sans-serif;color:#9d8a77}.order-button,.primary{border:0;background:#386b4f;color:white;border-radius:100px;padding:16px 29px;font-weight:700;cursor:pointer}.order-button span{margin-left:20px}.order-button:hover,.primary:hover{background:#28543c}.picker-footer{display:flex;justify-content:space-between;gap:12px;margin-top:30px;color:#b29b85;font-size:11px;letter-spacing:.12em}.timer{font-size:4rem;margin-top:24px}.cup{position:relative;width:140px;height:160px;margin:0 auto 24px;overflow:hidden;background:var(--paper);border:4px solid var(--ink);border-radius:0 0 70px 70px}.cup-liquid{position:absolute;bottom:0;left:0;width:100%;transition:height 1s linear}.receipt{width:100%;max-width:350px;margin:0 auto 24px;padding:26px;background:var(--paper);border:2px dashed var(--ink);font-family:ui-monospace,Menlo,monos}.receipt h2{margin:0}.receipt dl{margin:16px 0}.receipt-row{display:flex;justify-content:space-between;padding:4px 0;gap:20px}.receipt dt,.receipt dd{margin:0}.receipt dd{text-align:right}main:not(.picker):not(.bb-landing-main):not(.wellness-content){min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px}main:not(.picker):not(.bb-landing-main):not(.wellness-content) h1{font:normal clamp(40px,6vw,65px) Georgia,serif;margin:0 0 22px}main:not(.picker):not(.bb-landing-main):not(.wellness-content) button{cursor:pointer;padding:12px 24px;margin:8px;border-radius:30px;border:1px solid #d9cdbb;background:#fffdf8}main:not(.picker):not(.bb-landing-main):not(.wellness-content) button.primary{background:#386b4f;color:white;border:0}@media(max-width:800px){.header-caption{display:none}.drink-grid{grid-template-columns:1fr}.drink-art{height:165px}.picker-heading{margin-top:35px}.heading-sparkle{display:none}.card-content p{min-height:0}.order-summary{flex-wrap:wrap}.order-button{width:100%}}@media(max-width:480px){.cafe-header{padding:0 18px}.brand{font-size:20px}.header-pill{display:none}.picker{padding:25px 18px}.step-line{gap:11px;font-size:9px}.picker-heading h1{font-size:43px}.order-note{display:block;margin-top:5px}.picker-footer{flex-direction:column}}
 /* Figma-inspired small-print details — scoped to the existing picker */
 .brand-home{border:0;background:transparent;cursor:pointer;padding:0;display:inline-flex;align-items:center;font:700 25px Georgia,serif}
 .focus-meta{display:flex;align-items:center;gap:9px;margin-top:14px;color:#987d61;font:600 10px/1.6 ui-monospace,SFMono-Regular,Menlo,Monaco,monospace;letter-spacing:.075em;flex-wrap:wrap}
@@ -25,3 +25,369 @@
 @media (max-width: 480px) {
   .cafe-page .brand-home { font-size: 21px; }
 }
+
+
+
+.card {
+  transition: filter 0.2s ease, transform 0.2s ease;
+}
+
+.card.selected {
+  filter: brightness(0.9);
+  transform: translateY(-2px);
+  border-color: var(--ink);
+}
+
+.wellness-page {
+  min-height: 100vh;
+  color: #4d4034;
+  background:
+    radial-gradient(circle at 94% 18%, #f0e0cb 0, transparent 30%),
+    #f6f0e6;
+}
+
+.wellness-page .wellness-home-button {
+  margin: 0;
+  padding: 10px 17px;
+  border: 1px solid #e4d5c2;
+  border-radius: 30px;
+  background: #fbf7ef;
+  color: #35684e;
+  font-size: 12px;
+}
+
+.wellness-content {
+  width: 100%;
+  max-width: 1200px;
+  min-height: auto;
+  margin: 0 auto;
+  padding: 46px 30px 30px;
+  display: block;
+  text-align: left;
+}
+
+.wellness-content .step-line {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid #e2d6c5;
+  color: #b4a391;
+  font-size: 11px;
+  letter-spacing: .15em;
+  font-weight: 700;
+}
+
+.wellness-content .step-line span:first-child {
+  color: #35684e;
+}
+
+.wellness-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 48px 0 32px;
+}
+
+.wellness-heading h1 {
+  max-width: 760px;
+  margin: 16px 0 18px;
+  font: normal clamp(42px, 6vw, 70px)/1.08 Georgia, "Times New Roman", serif;
+  letter-spacing: -.045em;
+}
+
+.wellness-heading h1 em {
+  color: #376b4e;
+  font-weight: normal;
+}
+
+.wellness-heading p {
+  max-width: 580px;
+  margin: 0;
+  color: #907d6b;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.wellness-heading .heading-sparkle {
+  color: #d9b59d;
+  font-size: 72px;
+  opacity: .7;
+}
+
+.wellness-widget {
+  max-width: 850px;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #e4d8c8;
+  border-radius: 20px;
+  background: #fffcf7;
+  box-shadow: 0 12px 40px #6c4a2a0d;
+}
+
+.wellness-widget-top {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  padding: 25px 30px;
+  border-bottom: 1px solid #e9dfd3;
+  background: #fbf7ef;
+}
+
+.wellness-widget-icon {
+  display: grid;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  place-items: center;
+  border-radius: 50%;
+  background: #e3eddf;
+  font-size: 26px;
+}
+
+.wellness-widget-top .eyebrow {
+  font-size: 10px;
+}
+
+.wellness-widget-top h2 {
+  margin: 5px 0 0;
+  color: #35684e;
+  font: normal 30px Georgia, "Times New Roman", serif;
+}
+
+.wellness-counter {
+  margin-left: auto;
+  color: #a38b73;
+  font-size: 12px;
+  letter-spacing: .12em;
+  white-space: nowrap;
+}
+
+.wellness-panel {
+  min-height: 0;
+  padding: 30px;
+}
+
+.wellness-prompt {
+  margin: 0 0 28px;
+  color: #907d6b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.wellness-progress-label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 11px;
+  color: #766755;
+  font-size: 13px;
+}
+
+.wellness-progress-label strong {
+  color: #35684e;
+}
+
+.wellness-progress {
+  height: 10px;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #eee5d9;
+}
+
+.wellness-progress > span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: #6b9a76;
+  transition: width .25s ease;
+}
+
+.water-cups {
+  display: grid;
+  grid-template-columns: repeat(8, minmax(0, 1fr));
+  gap: 10px;
+  margin: 28px 0;
+}
+
+.wellness-page .water-cup {
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  min-height: 65px;
+  margin: 0;
+  padding: 8px 2px;
+  border: 1px solid #e4d8c8;
+  border-radius: 12px;
+  background: #f8f3eb;
+  font-size: 23px;
+  transition: background .18s, transform .18s;
+}
+
+.wellness-page .water-cup.is-filled {
+  border-color: #b6d6e9;
+  background: #e4f2f9;
+}
+
+.wellness-page .water-cup:hover {
+  transform: translateY(-2px);
+}
+
+.wellness-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.wellness-page .primary {
+  margin: 0;
+  border: 0;
+  background: #386b4f;
+  color: #fff;
+  border-radius: 100px;
+  padding: 14px 25px;
+  font-size: 13px;
+}
+
+.wellness-page .primary:hover {
+  background: #28543c;
+}
+
+.wellness-page button:disabled {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+.wellness-page .wellness-secondary {
+  margin: 0;
+  padding: 12px 19px;
+  border: 1px solid #dfd1c0;
+  border-radius: 100px;
+  background: #fffdf8;
+  color: #477153;
+  font-size: 13px;
+}
+
+.wellness-page .wellness-secondary:hover {
+  border-color: #8eae92;
+  background: #f3f6ef;
+}
+
+.wellness-small-note,
+.wellness-save-note {
+  margin: 22px 0 0;
+  color: #9a8774;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.wellness-widget-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 19px 25px;
+  border-top: 1px solid #e9dfd3;
+  background: #fbf7ef;
+}
+
+.wellness-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 30px;
+  color: #b29b85;
+  font-size: 10px;
+  letter-spacing: .12em;
+}
+
+.wellness-page main.wellness-content {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: auto;
+  text-align: left;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
+@media (max-width: 800px) {
+  .wellness-content {
+    padding: 32px 22px 26px;
+  }
+
+  .wellness-heading {
+    margin-top: 35px;
+  }
+
+  .wellness-heading .heading-sparkle {
+    display: none;
+  }
+
+  .wellness-panel {
+    padding: 24px;
+  }
+
+  .water-cups {
+    gap: 6px;
+  }
+
+  .wellness-page .water-cup {
+    min-height: 52px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .wellness-content {
+    padding: 25px 16px;
+  }
+
+  .wellness-content .step-line {
+    gap: 12px;
+    font-size: 9px;
+  }
+
+  .wellness-heading h1 {
+    font-size: 43px;
+  }
+
+  .wellness-widget-top {
+    gap: 12px;
+    padding: 20px 16px;
+  }
+
+  .wellness-widget-top h2 {
+    font-size: 25px;
+  }
+
+  .wellness-widget-icon {
+    width: 43px;
+    height: 43px;
+    font-size: 22px;
+  }
+
+  .wellness-counter {
+    font-size: 10px;
+  }
+
+  .wellness-panel {
+    padding: 20px 16px;
+  }
+
+  .wellness-widget-footer {
+    padding: 15px 16px;
+  }
+
+  .wellness-footer {
+    flex-direction: column;
+  }
+}
+
+.cafe-page .wellness-entry{cursor:pointer;background:transparent;color:#35684e;font-family:inherit}.cafe-page .wellness-entry:hover{background:#f0e8dc}

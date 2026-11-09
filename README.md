@@ -41,5 +41,18 @@ npm install
 Start the development server:
 npm run dev
 
+### Backend API
+The drinks API uses PostgreSQL. Create a database named `brew_bloom`, copy `backend/.env.example` to `backend/.env`, and set `DATABASE_URL` to your PostgreSQL connection string. Then install and start the backend:
+
+```powershell
+cd backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+On startup, the backend creates the `drinks` table and inserts any missing sample drinks. The API is available at `http://localhost:8000/api/drinks`; interactive documentation is at `http://localhost:8000/docs`.
+
 ## Team
 TBD
