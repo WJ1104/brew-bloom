@@ -391,3 +391,57 @@
 }
 
 .cafe-page .wellness-entry{cursor:pointer;background:transparent;color:#35684e;font-family:inherit}.cafe-page .wellness-entry:hover{background:#f0e8dc}
+
+/* ---------- Focus time page (reuses drink picker styles) ---------- */
+
+.time-card .card-content h2 {
+  font-size: 56px;
+  line-height: 1;
+}
+
+.drink-card.time-card .card-content p {
+  min-height: 0;
+}
+
+.time-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.back-button {
+  border: 1px solid #dfd1c0;
+  border-radius: 100px;
+  background: #fffdf8;
+  color: #477153;
+  padding: 14px 22px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  border-color: #8eae92;
+  background: #f3f6ef;
+}
+
+.order-button:disabled,
+.order-button:disabled:hover {
+  background: #386b4f;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Phones: 2 columns of times instead of 1 */
+@media (max-width: 800px) {
+  .time-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .time-actions {
+    width: 100%;
+  }
+
+  .time-actions .order-button {
+    flex: 1;
+  }
+}
